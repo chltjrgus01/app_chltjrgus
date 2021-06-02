@@ -1,0 +1,77 @@
+.wave_canvas {
+    z-index: -1;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    transform: translate(0, 81%);
+    transition: transform 1s;
+}
+
+.pause_switch_Skin {
+    z-index: 2;
+    position: absolute;
+
+    background: rgba(255, 122, 0, 0.3);
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.pause_Skin_Skin {
+    z-index: 3;
+    position: absolute;
+    background: rgb(255, 122, 70);
+
+    width: 4.5px;
+    height: 20px;
+}
+
+.move_canvas_switch {
+    z-index: 4;
+
+    position: absolute;
+
+    background: none;
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.Pause_Environment {
+    z-index: 5;
+    width: 99%;
+    height: 99%;
+    transition: transform 2.5s;
+    transform: translate(0, 200%);
+}
+
+.Pause_Environment_Button {
+    z-index: 15;
+    background: none; 
+    border: none;
+    color: rgb(247, 142, 57);
+    font-size: 70pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 500px;
+    height: 150px;
+    cursor: pointer;
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
