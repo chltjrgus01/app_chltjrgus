@@ -75,7 +75,7 @@ class Hit_Box {
 
     Effects(t) {
         if (!Pause_State && Start_State);
-        Score += 10 * (health_point / 500);
+        Score += 5 + 10 * (health_point / 500);
         health_point += 3;
         if (health_point > 1000) { health_point = 1000; }
         document.querySelector('.Score_UI').textContent = Math.floor(Score / 1);
