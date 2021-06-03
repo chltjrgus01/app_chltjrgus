@@ -48,7 +48,7 @@
 }
 
 .Game_over_text {
-    z-index: 6;
+    z-index: 20;
     background: none; 
     border: none;
     color: rgb(247, 142, 57);
