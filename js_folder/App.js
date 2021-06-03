@@ -66,7 +66,7 @@ window.onload = () => {
                             } else {
                             Play_Hit_button.health_point_UI_text.textContent = Math.floor(health_point);
                             }
-                            Play_Hit_button.health_point_UI.style.width = (health_point * 0.1) + 'px';
+                            Play_Hit_button.health_point_UI.style.width = (health_point * 10) + 'px';
                             console.log('hit Damage..! : ' + Damage_per_second * button_count);
                             console.log('pause_state : ' + Pause_State);
                         }
