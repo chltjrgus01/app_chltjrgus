@@ -44,9 +44,6 @@ class play {
     }
 
     Game_over() {
-        document.querySelector('.wave_canvas').style.transform = 'translate(0vw, 0vw)';
-        document.querySelector('.Game_over_text').style.transform = 'translate(0%)';
-
         document.body.removeChild(this.hit_box[0].Hit_button);
         clearTimeout(this.hit_box[0].Error_Tlqkf);
         document.body.removeChild(this.hit_box[1].Hit_button);
@@ -57,6 +54,10 @@ class play {
         clearTimeout(this.hit_box[3].Error_Tlqkf);
         document.body.removeChild(this.hit_box[4].Hit_button);
         clearTimeout(this.hit_box[4].Error_Tlqkf);
+        
+        document.querySelector('.wave_canvas').style.transform = 'translate(0vw, 0vw)';
+        document.querySelector('.Game_over_text').style.transform = 'translate(0%)';
+
     }
 }
 
