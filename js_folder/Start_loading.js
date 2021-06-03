@@ -165,7 +165,7 @@ class Starting_Effect_Group {
         this.total_effects = 3;
         this.total_points = 21;
 
-        this.color = ['rgba(255, 0, 0, 0.3)', 'rgba(255, 255, 0, 0.4)', 'rgba(0, 255, 255, 0.3)'];
+        this.color = ['rgba(255, 0, 0, 0.3)', 'rgba(255, 255, 0, 0.6)', 'rgba(0, 255, 255, 0.3)'];
 
         this.starting_effects = [];
 
