@@ -56,6 +56,7 @@ class play {
 
 class Hit_Box {
     constructor(color) {
+        this.Error_Tlqkf;
         this.color = color
         this.Hit_button = document.createElement('button');
         this.Hit_button.className = 'Play_Hit_button';
